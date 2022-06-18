@@ -54,7 +54,7 @@ main {
 section.hero-banner {
     min-width: 1200px;
     height: 700px; 
-    background-image: url("./img-mission-background.jpeg");
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ztq0f2*_ga*NjEyNjk0NTE2LjE2NTIxMzA3NzI.*_ga_3LRZM6TM9L*MTY1NTU3Nzg5OC41NS4xLjE2NTU1NzkwNTMuNDk.");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,7 +94,7 @@ section.Month {
 }
 
 .Locations {
-    background-image: url("./img-locations-background.jpeg");
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ztq0f2*_ga*NjEyNjk0NTE2LjE2NTIxMzA3NzI.*_ga_3LRZM6TM9L*MTY1NTU3Nzg5OC41NS4xLjE2NTU1NzkwNTMuNDk.");
     min-height: 500px;
     min-width: 1200px;
     display: flex; 
