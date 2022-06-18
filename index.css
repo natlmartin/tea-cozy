@@ -1,0 +1,133 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell; 
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px; 
+    background-color: black;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 69px; 
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+nav {
+    flex-grow: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    color: seashell;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 10px; 
+}
+
+main {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.hero-banner {
+    min-width: 1200px;
+    height: 700px; 
+    background-image: url("./img-mission-background.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    background-color: black;
+}
+
+section.Month {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.Month h2 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.Month h4 {
+    width: 100%;
+}
+
+.card img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.card h5 {
+    margin-top: 10px;
+}
+
+.Locations {
+    background-image: url("./img-locations-background.jpeg");
+    min-height: 500px;
+    min-width: 1200px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 15px;
+}
+
+.Locations h2 {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.Store {
+    width: 300px;
+    height: 300px; 
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+footer { 
+    max-height: 200px;
+}
+
+h5.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
